@@ -95,7 +95,7 @@ console.log(data);
 
 
 // Example: Renaming a file
-fs.rename(path+'\\assets\\temp.txt', path+'\\assets\\dummy.txt', err => {
+fs.rename(dir+'\\assets\\temp.txt', dir+'\\assets\\dummy.txt', err => {
   if (err) throw err;
   console.log('Rename complete');
 }); 
